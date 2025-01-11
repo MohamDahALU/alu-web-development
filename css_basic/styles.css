@@ -6,6 +6,10 @@ body {
     flex-direction: column;
 }
 
+header {
+    background-color: aquamarine;
+}
+
 main {
     flex: auto;
 }
@@ -13,6 +17,8 @@ main {
 main article {
     flex: 2;
     overflow-y: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 main aside {
     flex: 1;
